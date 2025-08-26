@@ -1,0 +1,14 @@
+{
+  "name": "C++ Codespace",
+  "image": "mcr.microsoft.com/devcontainers/cpp:0-ubuntu-22.04",
+  "extensions": [
+    "ms-vscode.cpptools",
+    "ms-vscode.cpptools-extension-pack",
+    "ms-vscode.cmake-tools",
+    "formulahendry.code-runner"
+  ],
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y build-essential",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}
