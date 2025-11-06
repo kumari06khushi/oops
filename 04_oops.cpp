@@ -36,7 +36,7 @@ Employee::getcount();
 
 lovish.setdata();
 lovish.getdata();
-Employee::getcount();
+Employee::getcount();//because the static function belongs to the class, not to any specific object like khushi or rohan. so we can call through class , not through any single object 
 
     return 0;
 }
