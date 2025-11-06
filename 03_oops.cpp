@@ -33,3 +33,19 @@ dukan.setPrice();
 dukan.displayPrice();
 return 0;
 }
+/*
+ * Why are we using counter inside square brackets like itemId[counter]?
+
+Because:
+
+counter indicates which position in the array we should store the new item.
+
+Every time you add a new item, you store it at the next index.
+
+
+* Why not fixed index like itemId[0]?
+
+Because then every time you enter a new item, old value gets replaced.
+
+Using counter automatically moves to next empty place in array.
+*/
